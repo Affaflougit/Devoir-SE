@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="53edc509-f30e-4789-b376-85cf334053f5" manual="true">
+    <element uuid="6a656d26-4fa1-407d-81f5-df9e4ba130ca" manual="true">
+      <element uuid="e8ad0119-463c-4540-8a54-e088621a7944" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>speed1</seg>
+      </bo>
+      <bendpoints>
+        <point x="747.0" y="212.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="84fad2db-acbe-476b-981d-3bd866358120" manual="true">
+      <element uuid="d938661a-079d-4d0a-bd8b-6e4638086a78" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>speed2</seg>
+      </bo>
+      <bendpoints>
+        <point x="354.0" y="48.0"/>
+        <point x="355.0" y="115.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="1169b3bc-682a-4d6a-87dc-faff4f311e0f" manual="true">
+      <element uuid="8f100a0d-1ba8-48f7-bc2f-75169a704df8" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>speed3</seg>
+      </bo>
+      <bendpoints>
+        <point x="484.0" y="242.0"/>
+        <point x="730.0" y="247.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="e5a1da1d-db3d-4399-a0d0-da4354962867" manual="true">
+      <element uuid="8217911f-512d-4de5-8df5-bfb3e609487f" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>speed4</seg>
+      </bo>
+      <bendpoints>
+        <point x="481.0" y="323.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="65fb2078-dca6-4775-9e68-d517c7b9f522" manual="true">
+      <element uuid="059bf8d6-1d0e-4aa7-b246-0a29307ac49f" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>speed5</seg>
+      </bo>
+      <bendpoints>
+        <point x="1328.0" y="220.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="e38fc9a6-cba5-4316-a6ee-f4c9bd7e1d9f" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>command_data</seg>
+      </bo>
+      <position x="1070.8945541381836" y="98.0"/>
+    </element>
+    <element uuid="2ea75396-bd98-4c50-9f1a-cfb8c0a32a34" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>disengage</seg>
+      </bo>
+      <position y="230.0"/>
+    </element>
+    <element uuid="3b7509a5-4a5d-493f-8862-3fd5cef8c566" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>sensor_data</seg>
+      </bo>
+      <position y="40.0"/>
+    </element>
+    <element uuid="1db69529-aff6-4e02-ad5e-efb2b72225c3" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>set_speed</seg>
+      </bo>
+      <position y="300.0"/>
+    </element>
+    <element uuid="702403ed-5ca8-4241-8ef8-42f393810922" manual="true">
+      <element uuid="35eb03e1-f1bc-48ba-9e53-3b2e8cf8d555" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>proc_data</seg>
+        </bo>
+        <position x="264.89194107055664" y="10.0"/>
+      </element>
+      <element uuid="1763d2b7-8a71-4774-a79c-9e2d193723ed" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>sensor_data</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>scale_speed_data</seg>
+      </bo>
+      <position x="230.0" y="110.0"/>
+      <size width="336.19532012939453" height="60.0"/>
+    </element>
+    <element uuid="30e54a34-13c7-43b6-8015-a5f723687c2e" manual="true">
+      <element uuid="48a91cd1-21a8-4d5a-94f4-04e5f9a89136" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>cmd</seg>
+        </bo>
+        <position x="284.9244728088379" y="10.0"/>
+      </element>
+      <element uuid="1e9352a6-739d-4d15-ad2c-123764d348fd" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>disengage</seg>
+        </bo>
+        <position y="45.0"/>
+      </element>
+      <element uuid="2b210201-20ca-459c-b99f-bd0f81bbe69a" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>proc_data</seg>
+        </bo>
+        <position/>
+      </element>
+      <element uuid="9be6ccca-1ce3-4034-b58d-bea61f571beb" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>set_speed</seg>
+        </bo>
+        <position y="110.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>speed_control_laws</seg>
+      </bo>
+      <position x="680.0" y="210.0"/>
+      <size width="322.11327362060547" height="195.0"/>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>data_processing.composants</seg>
+    </bo>
+    <position x="180.0" y="-30.0"/>
+    <size width="1174.8021087646484" height="440.0"/>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>devoir::data_processing.composants</seg>
+    </context>
+  </config>
+</diagram:Diagram>

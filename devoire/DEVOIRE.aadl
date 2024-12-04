@@ -1,0 +1,44 @@
+package devoir 
+public 
+ process data_processing 
+  features  
+   sensor_data:in data port; 
+    disengage:in event port; 
+    set_speed:in data port; 
+    command_data:out data port; 
+ end data_processing; 
+  
+ process implementation data_processing.composants 
+  subcomponents 
+    scale_speed_data: thread group scalespeedgroup; 
+    speed_control_laws: thread group speedcontrolgroup; 
+     
+  connections 
+    speed1 : port scale_speed_data.proc_data -> speed_control_laws.proc_data; 
+    speed2: port sensor_data -> scale_speed_data.sensor_data; 
+    speed3: port disengage -> speed_control_laws.disengage; 
+   speed4: port set_speed -> speed_control_laws.set_speed; 
+   speed5: port speed_control_laws.cmd -> command_data; 
+     
+  
+ end data_processing.composants; 
+ thread group scalespeedgroup 
+  features  
+   sensor_data:in data port; 
+   proc_data:out data port; 
+ end scalespeedgroup; 
+  
+ thread group implementation scalespeedgroup.impl 
+  end scalespeedgroup.impl; 
+   
+ thread group speedcontrolgroup 
+  features  
+     proc_data:in data port; 
+     disengage:in event port; 
+     set_speed:in data port; 
+     cmd:out data port;  
+ end speedcontrolgroup; 
+  
+ thread group implementation speedcontrolgroup.impl 
+  end speedcontrolgroup.impl; 
+end devoir;
